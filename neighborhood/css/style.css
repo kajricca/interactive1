@@ -2,10 +2,11 @@ body {
 	font-size:100%;
 	color:teal;
 	font-family:helvetica, sans-serif;
-	padding-top: 1em;
+	padding-top: 2em;
 	padding-left:8.5em;
 	padding-right:8.5em;
 	padding-bottom:5em;
+
 
 }
 
@@ -13,7 +14,7 @@ a{
 	text-decoration:underline;
 	color:white;
 	font-weight:bold;
-	font-family:helvetica,sans-serif;
+	font-family: helvetica,sans-serif;
 	padding: 10px;
 	background-color: orange;
 }
@@ -24,26 +25,25 @@ p{
 	text-decoration:none;
 	font-family:helvetica,sans-serif;
 	text-decoration: none;
-	padding-left: 67px;
+	padding-left: 70px;
 	padding-right:100px;
 	font-size: 13pt;
   line-height: 1.85;
 }
 
-}
 
 h2{
 	color:black;
 	padding: 0 30px;
 }
 header{
-	font-weight: bold;
-	font-size:55px;
+	font-weight: bolder;
+	font-size:62px;
 	font-family:helvetica, sans-serif;
 	text-decoration:none;
 
 }
 
 img{
-	padding-left: 0 100px;
+	width: 33.3%;
 }
