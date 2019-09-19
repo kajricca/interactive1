@@ -1,0 +1,96 @@
+body {
+	font-size:100%;
+	color:DarkSlateGrey  ;
+	font-family:futura,avenir,helveticaneue,centurygothic,arial,sansserif;
+	width:1000px;
+	padding:30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align: center;
+	text-decoration:none;
+}
+
+
+a{
+	text-align: center;
+	display: inline-block;
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:.9em;
+	text-decoration: none;
+
+
+
+}
+
+p{
+	text-decoration:none;
+	color:DarkSlateGrey;
+	font-weight: lighter;
+	padding-left: 70px;
+	padding-right:100px;
+	font-size: 13pt;
+  line-height: 1.85;
+}
+
+h1{
+	color:pink;
+	font-size: 60px;
+	font-weight: normal;
+}
+
+h2{
+	color:pink;
+}
+
+section1{
+	background: lavenderblush;
+}
+
+header{
+	font-size:35px;
+	text-decoration:none;
+	background: lavenderblush;
+	font-family: baskerville, times;
+	padding-left:4.85em;
+	padding-right:4.85em;
+	padding-top: 1em;
+
+
+
+}
+header2{
+	font-size:14px;
+	text-decoration:none;
+	background: lavenderblush;
+	padding-left:31.86em;
+	padding-right:31.86em;
+	font-family: baskerville, times;
+	padding-bottom: 1em;
+}
+
+header3{
+	font-size:14px;
+	text-decoration:none;
+	background: DarkSlateGrey;
+	padding-left:31.86em;
+	padding-right:31.86em;
+	font-family: baskerville, times;
+	padding-bottom: 1em;
+
+}
+
+#header{
+	background:lavenderblush;
+	color:DarkSlateGrey;
+	width: 100%
+	position:fixed;
+
+}
+
+img{
+	width: 33.3%;
+}
