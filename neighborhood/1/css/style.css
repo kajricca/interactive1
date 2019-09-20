@@ -1,23 +1,30 @@
 body {
 	font-size:100%;
 	color:DarkTurquoise ;
-	font-family:helvetica, sans-serif;
-	padding-top: 2em;
-	padding-left:8.5em;
-	padding-right:8.5em;
-	padding-bottom:5em;
+	font-family:futura,avenir,helveticaneue,centurygothic,arial,sansserif;
+	width:1000px;
+	padding:30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align: center;
+	text-decoration:none;
 	background-color: black;
-	align-items: center;
+
 }
 
 
 a{
 	text-decoration:underline;
 	color:white;
-	font-weight:bold;
-	font-family: helvetica,sans-serif;
-	padding-left: 30px;
-	padding-right: 30px;
+	text-align: center;
+	display: inline-block;
+	padding-left:43px;
+	padding-right:43px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:1em;
+	text-decoration: none;
 
 }
 
@@ -25,7 +32,6 @@ p{
 	text-decoration:underline,none;
 	color:white;
 	text-decoration:none;
-	font-family:helvetica,sans-serif;
 	text-decoration: none;
 	padding-left: 70px;
 	padding-right:100px;
@@ -33,15 +39,12 @@ p{
   line-height: 1.85;
 }
 
-}
-
 h2{
 	color:white;
 }
 header{
 	font-weight: bolder;
-	font-size:62px;
-	font-family:helvetica, sans-serif;
+	font-size:55px;
 	text-decoration:none;
 	color: white;
 
@@ -50,7 +53,7 @@ header{
 #header{
 	background:orange;
 	width: 100%
-	height:20px;
+	height:0%;
 	position:fixed;
 
 }
