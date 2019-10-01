@@ -1,9 +1,4 @@
-/* reset styles */
-* {
-        margin: 0px; padding: 0px;
-}
 
-/* make the background of the page black */
 body {
 				margin: 4em;
         background: white;
@@ -11,73 +6,144 @@ body {
 
 /* flag canvas */
 #canvas {
-        width: 500px;
-        height: 300px;
-        position: relative;
-        background: black;
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  background: rgb(131,58,180);
+  background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,86,1) 45%, rgba(252,176,69,1) 75%, rgba(252,232,69,1) 100%);
 }
 
-/* shapes */
 #rectangle {
-
-  			width: 160px;
-				height: 160px;
-				background: white;
-				border-radius: 35px;
-
-				/* position the circle in the center of the flag */
-				position: absolute;
-				top: 65px;
-				left: 165px;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  left:50px;
+  top:50px;
+  background: rgb(131,58,180);
+  background: linear-gradient(203deg, rgba(131,58,180,1) 0%, rgba(253,29,86,1) 45%, rgba(252,176,69,1) 75%, rgba(252,232,69,1) 100%);
 }
 
-#rectanglered {
-
-  			width: 40px;
-				height: 160px;
-				background: red;
-
-				/* position the circle in the center of the flag */
-				position: absolute;
-				top: 65px;
-				left: 245px;
+#body {
+  position: absolute;
+  width: 175px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  left:120px;
+  top: 75px;
 }
 
-#rectanglegradient {
-
-				width: 40px;
-				height: 160px;
-				background: rgb(131,58,180);
-        background: linear-gradient(45deg, rgba(131,58,180,1) 0%, rgba(253,29,86,1) 45%, rgba(252,176,69,1) 75%, rgba(252,232,69,1) 100%);
-
-				/* position the circle in the center of the flag */
-				position: absolute;
-				top: 65px;
-				left: 205px;
+#head {
+  position: absolute;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  background: white;
+  left:225px;
+  top: 40px;
 }
 
-#kbar1 {
-
-				width: 40px;
-				height: 75px;
-				border-radius: 35px;
-				background: white;
-				/* position the circle in the center of the flag */
-				position: absolute;
-				top: 100px;
-				left: 325px;
-				transform: rotate(45deg);
+#ear {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:180px;
+  top: 45px;
 }
 
-#kbar2 {
+#foot1 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:125px;
+  top: 195px;
+}
 
-				width: 40px;
-				height: 75px;
-				border-radius: 35px;
-				background: white;
-				/* position the circle in the center of the flag */
-				position: absolute;
-				top: 155px;
-				left: 325px;
-				transform: rotate(135deg);
+#foot2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:245px;
+  top: 195px;
+}
+
+#trunk1 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:325px;
+  top: 85px;
+}
+
+#trunk2 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:350px;
+  top: 92px;
+}
+
+#trunk3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:367px;
+  top: 105px;
+}
+
+#trunk4 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:380px;
+  top: 118px;
+}
+
+#trunk5 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: ghostwhite;
+  left:385px;
+  top: 130px;
+}
+
+.animation-pulse {
+  -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: pulse;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
+}
+
+/* Standard syntax */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(1.15); }
 }
