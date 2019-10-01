@@ -20,15 +20,15 @@ body {
 
 #orange {
 				width: 500px;
-				height: 100px;
+				height: 66.66px;
 				position: relative;
 				background: darkorange;
 
 }
 
-#white {
+#white1 {
 				width: 500px;
-				height: 100px;
+				height: 25px;
 				position: relative;
 				background: white;
 
@@ -36,9 +36,33 @@ body {
 
 #green {
 				width: 500px;
-				height: 100px;
+				height: 66.66px;
 				position: relative;
 				background: green;
+
+}
+
+#white2 {
+				width: 500px;
+				height: 25px;
+				position: relative;
+				background: white;
+
+}
+
+#red {
+				width: 500px;
+				height: 66.66px;
+				position: relative;
+				background: red;
+
+}
+
+#white3 {
+				width: 500px;
+				height: 25px;
+				position: relative;
+				background: white;
 
 }
 
@@ -49,4 +73,53 @@ body {
 				top: 105px;
 				left: 210px;
 
+}
+
+.animation-pulse {
+  -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+  animation-name: pulse;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(2.5); }
+}
+
+/* Standard syntax */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  100% { transform: scale(2.5); }
+}
+
+
+.animation-rotate {
+  -webkit-animation-name: rotate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: .7s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  animation-name: rotate;
+  animation-duration: .7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Standard syntax */
+@keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
 }
