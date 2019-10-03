@@ -38,7 +38,7 @@ body {
   color: white;
   width: 100vw;
   height: 100vh;
-  font-family: 'Raleway Dots', cursive;
+  font-family: rockwell;
 }
 #answer {
   display: none;
@@ -52,7 +52,7 @@ body {
   #answer {
     display: flex;
     justify-content: center;
-    font-family: 'Lobster', cursive;
+    font-family: rockwell;
     font-weight: bold;
     flex-direction: column;
     text-align: center;
