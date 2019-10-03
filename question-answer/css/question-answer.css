@@ -7,6 +7,28 @@
 body {
   background: black;
   font-size: 100px;
+  animation: 10000ms ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: mediumvioletred;
+  }
+  20% {
+    background-color: deeppink;
+  }
+  40% {
+    background-color: darkorange;
+  }
+  60% {
+    background-color: orange;
+  }
+  80% {
+    background-color: gold;
+  }
+  100% {
+    background-color: mediumvioletred;
+  }
 }
 #question{
   display: flex;
