@@ -52,7 +52,8 @@ body {
   #answer {
     display: flex;
     justify-content: center;
-    font-family: impact;
+    font-family: rockwell;
+    font-weight: bold;
     flex-direction: column;
     text-align: center;
     color: white;
