@@ -1,11 +1,11 @@
 
 * {
-    margin: 13px;
-    padding:13px;
+    margin: 10px;
+    padding:10px;
     box-sizing: border-box;
 }
 body {
-    background: darkorange;
+    background: teal;
 
 }
 #desktop {
@@ -19,7 +19,7 @@ body {
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
-        background: purple;
+        background: teal;
     }
     #tablet {
         display: inline;
@@ -33,7 +33,7 @@ body {
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: deeppink;
+        background: teal;
     }
     #mobile {
         display: inline;
