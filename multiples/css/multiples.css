@@ -32,7 +32,7 @@ body {
 /* mobile */
 @media (max-width: 670px) {
     body {
-        background: hotpink;
+        background: deeppink;
     }
     #mobile {
         display: inline;
