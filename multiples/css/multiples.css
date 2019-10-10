@@ -6,56 +6,72 @@
 }
 body {
     background: darkorange;
-
+    position: relative;
 }
 #desktop {
-    display: inline;
+    width: 350px;
+    animation: bounce .5s alternate infinite;
+    position: absolute;
+    top: 80px;
+    left: 25px;
 }
+@keyframes bounce {
+  0% {
+    transform: translate(0px, 80px);
+  }
+  100% {
+    transform: translate(0px, -5px);
+  }
+}
+
 #tablet,
-#mobile,
-#print {
+#mobile {
     display: none;
 }
+
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
         background: purple;
     }
     #tablet {
-        display: inline;
+      display: block;
+      width: 350px;
+      animation: bounce1 .75s alternate infinite;
+      position: absolute;
+      top: 50px;
+      left: 25px;
+  }
+  @keyframes bounce1 {
+    0% {
+      transform: translate(0px, 50px);
     }
-    #desktop,
-    #mobile,
-    #print {
-        display: none;
+    100% {
+      transform: translate(0px, -5px);
     }
 }
+  #desktop,
+  #mobile {
+    display: none;
+  }
+}
+
 /* mobile */
 @media (max-width: 670px) {
     body {
         background: deeppink;
     }
     #mobile {
-        display: inline;
-    }
-    #desktop,
-    #tablet,
-    #print {
-        display: none;
-    }
-}
-/* print */
-@media print {
-    body {
-        background:white;
-    }
-    #print {
-        display: inline;
-    }
-    #desktop,
-    #tablet,
-    #mobile {
-        display: none;
+      display: block;
+      width: 350px;
+      position: absolute;
+      top: 80px;
+      left: 25px;
 
+    }
+    #desktop,
+    #tablet,
+    #print {
+        display: none;
     }
 }
