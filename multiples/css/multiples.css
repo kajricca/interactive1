@@ -9,24 +9,53 @@ body {
 
 }
 #desktop {
-
+    display: inline;
 }
-
+#tablet,
+#mobile,
+#print {
+    display: none;
+}
 /* tablet */
 @media (min-width: 670px) and (max-width: 1024px) {
     body {
         background: purple;
     }
     #tablet {
-
+        display: inline;
     }
-
+    #desktop,
+    #mobile,
+    #print {
+        display: none;
+    }
 }
 /* mobile */
-@media (max-width: 670px)
+@media (max-width: 670px) {
     body {
         background: deeppink;
     }
     #mobile {
+        display: inline;
+    }
+    #desktop,
+    #tablet,
+    #print {
+        display: none;
+    }
+}
+/* print */
+@media print {
+    body {
+        background:white;
+    }
+    #print {
+        display: inline;
+    }
+    #desktop,
+    #tablet,
+    #mobile {
+        display: none;
 
     }
+}
