@@ -1,0 +1,45 @@
+
+body {
+				margin: 4em;
+        background: white;
+				font-family: futura;
+}
+
+.container{
+  display: grid;
+  grid-template-rows: 1fr 5fr 1fr;
+  grid-template-columns: 2fr 5fr 3fr;
+  grid-template-areas:
+    "header header header"
+    "nav main aside"
+    "footer footer footer";
+  grid-gap: 1em;
+}
+header{
+    grid-area: header;
+    background-color: deeppink;
+		color: white;
+		text-align: center;
+}
+nav{
+    grid-area: nav;
+    background-color: hotpink;
+		color: white;
+		line-height: 2;
+
+}
+main{
+    grid-area: main;
+    background-color: lavenderblush;
+		line-height: 2;
+}
+aside{
+    grid-area: aside;
+    background-color: pink;
+		line-height: 2;
+}
+footer{
+    grid-area: footer;
+    background-color: mediumvioletred;
+		color: white;
+}
