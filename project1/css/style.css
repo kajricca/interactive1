@@ -180,6 +180,41 @@ img{
   100% { transform: scale(1.2); }
 }
 
+.animation-color-change{
+    -webkit-animation: color-change .5s infinite;
+    -moz-animation: color-change .5s infinite;
+    -o-animation: color-change .5s infinite;
+    -ms-animation: color-change .5s infinite;
+    animation: color-change .5s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@-o-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+
+
 
 .animation-color-change1{
     -webkit-animation: color-change1 .5s infinite;
@@ -191,27 +226,27 @@ img{
 
 @-webkit-keyframes color-change1 {
     0% { color: black; }
-    50% { color: #FFA9F6; }
+    50% { color: #CC00FF; }
     100% { color: black; }
 }
 @-moz-keyframes color-change1 {
     0% { color: black; }
-    50% { color: #FFA9F6; }
+    50% { color: #CC00FF; }
     100% { color: black; }
 }
 @-ms-keyframes color-change1 {
     0% { color: black; }
-    50% { color: #FFA9F6; }
+    50% { color: #CC00FF; }
     100% { color: black; }
 }
 @-o-keyframes color-change1 {
     0% { color: black; }
-    50% { color: #FFA9F6; }
+    50% { color: #CC00FF; }
     100% { color: black; }
 }
 @keyframes color-change1 {
     0% { color: black; }
-    50% { color: #FFA9F6; }
+    50% { color: #CC00FF; }
     100% { color: black; }
 }
 
@@ -281,5 +316,39 @@ img{
 @keyframes color-change3 {
     0% { color: black; }
     50% { color: #CCFF00; }
+    100% { color: black; }
+}
+
+.animation-color-change4{
+    -webkit-animation: color-change4 .5s infinite;
+    -moz-animation: color-change4 .5s infinite;
+    -o-animation: color-change4 .5s infinite;
+    -ms-animation: color-change4 .5s infinite;
+    animation: color-change4 .5s infinite;
+}
+
+@-webkit-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@-o-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
     100% { color: black; }
 }
