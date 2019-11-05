@@ -48,7 +48,6 @@ h1{
 	letter-spacing: -0.015em;
 	color: #000000;
 	transform: rotate(-20deg);
-	background-color: #F8F8F8;
 
 }
 
@@ -125,7 +124,6 @@ h6{
 	letter-spacing: -0.015em;
 	color: #000000;
 	transform: rotate(-20deg);
-	background-color: #F8F8F8;
 
 }
 
@@ -138,7 +136,6 @@ h7{
 	letter-spacing: -0.015em;
 	color: #000000;
 	transform: rotate(20deg);
-	background-color: #F8F8F8;
 
 }
 
@@ -181,4 +178,108 @@ img{
 @keyframes pulse {
   0% { transform: scale(.5); }
   100% { transform: scale(1.2); }
+}
+
+
+.animation-color-change1{
+    -webkit-animation: color-change1 .5s infinite;
+    -moz-animation: color-change1 .5s infinite;
+    -o-animation: color-change1 .5s infinite;
+    -ms-animation: color-change1 .5s infinite;
+    animation: color-change1 .5s infinite;
+}
+
+@-webkit-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #FFA9F6; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #FFA9F6; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #FFA9F6; }
+    100% { color: black; }
+}
+@-o-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #FFA9F6; }
+    100% { color: black; }
+}
+@keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #FFA9F6; }
+    100% { color: black; }
+}
+
+.animation-color-change2{
+    -webkit-animation: color-change2 .5s infinite;
+    -moz-animation: color-change2 .5s infinite;
+    -o-animation: color-change2 .5s infinite;
+    -ms-animation: color-change2 .5s infinite;
+    animation: color-change2 .5s infinite;
+}
+
+@-webkit-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@-o-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+
+
+.animation-color-change3{
+    -webkit-animation: color-change3 .5s infinite;
+    -moz-animation: color-change3 .5s infinite;
+    -o-animation: color-change3 .5s infinite;
+    -ms-animation: color-change3 .5s infinite;
+    animation: color-change3 .5s infinite;
+}
+
+@-webkit-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@-o-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
 }
