@@ -4,7 +4,6 @@ body {
 }
 
 a{
-	text-decoration:underline;
 	color:white;
 	text-align: center;
 	display: inline-block;
@@ -116,7 +115,7 @@ h5{
 }
 
 h6{
-	font-family: Permanent Marker;
+	font-family: 'Permanent Marker';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
@@ -128,7 +127,7 @@ h6{
 }
 
 h7{
-	font-family: Permanent Marker;
+	font-family: 'Permanent Marker';
 	font-style: normal;
 	font-weight: normal;
 	font-size: 70px;
@@ -138,6 +137,23 @@ h7{
 	transform: rotate(20deg);
 
 }
+
+h8{
+	position: absolute;
+	width: 1440px;
+	height: 210px;
+	top: 7800px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 130px;
+	text-align: center;
+	line-height: 130px;
+	letter-spacing: -0.015em;
+	color: #FF92BB;
+
+}
+
 
 img{
 	position: absolute;
@@ -149,9 +165,10 @@ img{
 	width: 100%
 	height:0;
 	position:fixed;
-
+	z-index: 99 !important;
 
 }
+
 
 .animation-pulse {
   -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
@@ -165,6 +182,12 @@ img{
   animation-iteration-count: infinite;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+
+}
+
+img:hover {
+  animation: none;
+	animation-duration: 2s;
 
 }
 
@@ -186,6 +209,7 @@ img{
     -o-animation: color-change .5s infinite;
     -ms-animation: color-change .5s infinite;
     animation: color-change .5s infinite;
+		animation-delay: 3s;
 }
 
 @-webkit-keyframes color-change {
@@ -222,6 +246,7 @@ img{
     -o-animation: color-change1 .5s infinite;
     -ms-animation: color-change1 .5s infinite;
     animation: color-change1 .5s infinite;
+		animation-delay: 3s;
 }
 
 @-webkit-keyframes color-change1 {
@@ -256,6 +281,7 @@ img{
     -o-animation: color-change2 .5s infinite;
     -ms-animation: color-change2 .5s infinite;
     animation: color-change2 .5s infinite;
+		animation-delay: 3s;
 }
 
 @-webkit-keyframes color-change2 {
@@ -291,6 +317,7 @@ img{
     -o-animation: color-change3 .5s infinite;
     -ms-animation: color-change3 .5s infinite;
     animation: color-change3 .5s infinite;
+		animation-delay: 3s;
 }
 
 @-webkit-keyframes color-change3 {
@@ -325,6 +352,7 @@ img{
     -o-animation: color-change4 .5s infinite;
     -ms-animation: color-change4 .5s infinite;
     animation: color-change4 .5s infinite;
+		animation-delay: 3s;
 }
 
 @-webkit-keyframes color-change4 {
