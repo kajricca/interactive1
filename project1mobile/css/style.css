@@ -1,0 +1,382 @@
+body {
+	font-family: helvetica;
+
+}
+
+a{
+	color:white;
+	text-align: center;
+	display: inline-block;
+	padding-left:93.5px;
+	padding-right:93.5px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:1em;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+p{
+	font-size: 18px;
+	line-height: 35px;
+	letter-spacing: 0em;
+	color: #000000;
+	position: absolute;
+	width: 317px;
+	height: 553px;
+	left: 1063px;
+	top: 235px;
+	font-family: 'Kalam';
+
+}
+
+h1{
+	position: absolute;
+	width: 266.93px;
+	height: 111.6px;
+	left: 1000px;
+	top: 85px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 50px;
+	line-height: 73px;
+	display: flex;
+	align-items: center;
+	letter-spacing: -0.015em;
+	color: #000000;
+	transform: rotate(-20deg);
+
+}
+
+h2{
+	position: absolute;
+	width: 1440px;
+	height: 210px;
+	top: 1670px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	background-color: #FF51F8;
+	color: white;
+
+}
+
+h3{
+	position: absolute;
+	width: 1440px;
+	height: 210px;
+	top: 3870px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	background-color: #FF8A35;
+	color: white;
+
+}
+
+h4{
+	position: absolute;
+	width: 1440px;
+	height: 210px;
+	top: 5240px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	background-color: #DBC2FB;
+	color: white;
+
+}
+
+h5{
+	position: absolute;
+	width: 1440px;
+	height: 210px;
+	top: 6250px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 130px;
+	text-align: center;
+	letter-spacing: -0.015em;
+	background-color: #FF51F8;
+	color: white;
+
+}
+
+h6{
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	line-height: 70px;
+	letter-spacing: -0.015em;
+	color: #000000;
+	transform: rotate(-20deg);
+
+}
+
+h7{
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	line-height: 70px;
+	letter-spacing: -0.015em;
+	color: #000000;
+	transform: rotate(20deg);
+
+}
+
+h8{
+	position: absolute;
+	width: 1440px;
+	height: 210px;
+	top: 7800px;
+	font-family: 'Permanent Marker';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 130px;
+	text-align: center;
+	line-height: 130px;
+	letter-spacing: -0.015em;
+	color: #FF92BB;
+
+}
+
+
+img{
+	position: absolute;
+
+}
+
+#header{
+	background:#FF0099;
+	width: 100%
+	height:0;
+	position:fixed;
+	z-index: 99 !important;
+
+}
+
+
+.animation-pulse {
+  -webkit-animation-name: pulse; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+  -webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-delay: 3s;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+
+}
+
+img:hover {
+  animation: none;
+	animation-duration: 2s;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes pulse {
+  0% { transform: scale(.5); }
+  100% { transform: scale(1.2); }
+}
+
+/* Standard syntax */
+@keyframes pulse {
+  0% { transform: scale(.5); }
+  100% { transform: scale(1.2); }
+}
+
+.animation-color-change{
+    -webkit-animation: color-change .5s infinite;
+    -moz-animation: color-change .5s infinite;
+    -o-animation: color-change .5s infinite;
+    -ms-animation: color-change .5s infinite;
+    animation: color-change .5s infinite;
+		animation-delay: 3s;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@-o-keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+@keyframes color-change {
+    0% { color: black; }
+    50% { color: #FF92BB; }
+    100% { color: black; }
+}
+
+
+
+.animation-color-change1{
+    -webkit-animation: color-change1 .5s infinite;
+    -moz-animation: color-change1 .5s infinite;
+    -o-animation: color-change1 .5s infinite;
+    -ms-animation: color-change1 .5s infinite;
+    animation: color-change1 .5s infinite;
+		animation-delay: 3s;
+}
+
+@-webkit-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #CC00FF; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #CC00FF; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #CC00FF; }
+    100% { color: black; }
+}
+@-o-keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #CC00FF; }
+    100% { color: black; }
+}
+@keyframes color-change1 {
+    0% { color: black; }
+    50% { color: #CC00FF; }
+    100% { color: black; }
+}
+
+.animation-color-change2{
+    -webkit-animation: color-change2 .5s infinite;
+    -moz-animation: color-change2 .5s infinite;
+    -o-animation: color-change2 .5s infinite;
+    -ms-animation: color-change2 .5s infinite;
+    animation: color-change2 .5s infinite;
+		animation-delay: 3s;
+}
+
+@-webkit-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@-o-keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+@keyframes color-change2 {
+    0% { color: black; }
+    50% { color: #ADF5FF; }
+    100% { color: black; }
+}
+
+
+.animation-color-change3{
+    -webkit-animation: color-change3 .5s infinite;
+    -moz-animation: color-change3 .5s infinite;
+    -o-animation: color-change3 .5s infinite;
+    -ms-animation: color-change3 .5s infinite;
+    animation: color-change3 .5s infinite;
+		animation-delay: 3s;
+}
+
+@-webkit-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@-o-keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+@keyframes color-change3 {
+    0% { color: black; }
+    50% { color: #CCFF00; }
+    100% { color: black; }
+}
+
+.animation-color-change4{
+    -webkit-animation: color-change4 .5s infinite;
+    -moz-animation: color-change4 .5s infinite;
+    -o-animation: color-change4 .5s infinite;
+    -ms-animation: color-change4 .5s infinite;
+    animation: color-change4 .5s infinite;
+		animation-delay: 3s;
+}
+
+@-webkit-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@-moz-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@-ms-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@-o-keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
+@keyframes color-change4 {
+    0% { color: black; }
+    50% { color: #FFF500; }
+    100% { color: black; }
+}
