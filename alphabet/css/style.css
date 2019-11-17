@@ -1,20 +1,20 @@
 body {
-       background: black;
-			 color:#FF51F8;
+  	background: #4700BC;
+		color:#FAFF00;
+
 }
 
 .container{
-	display: flex;
-	flex-wrap: wrap;
-	margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
 }
 
 .A {
 		padding: 20px;
-    transition: 400ms ease all;
+    transition: 500ms ease all;
     width: 300px;
     height: 300px;
-    z-index: 10;
     position: relative;
 }
 
@@ -23,10 +23,10 @@ body {
 }
 
 #A {
-	width: 150px;
-    height: 150px;
+		width: 200px;
+    height: 200px;
     clip-path: polygon(50% 0, 85% 100%, 15% 100%);
-    background: #FF51F8;
+    background: #FAFF00;
     position: absolute;
     top: 75px;
     left: 75px;
@@ -35,24 +35,22 @@ body {
 
 .B {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 244px;
-    z-index: 10;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
 		position: relative;
 
 }
 
 .B:hover {
-		transform: rotate(30deg);
-
+		transform: rotate(-30deg);
 }
 
 #B {
-		width: 150px;
-    height: 150px;
+		width: 200px;
+    height: 200px;
     clip-path: polygon(0% 0%, 30% 0, 50% 30%, 30% 50%, 50% 70%, 30% 100%, 0% 100%);
-    background: #FF51F8;
+    background: #FAFF00;
     position: absolute;
     top: 75px;
     left: 112px;
@@ -62,28 +60,22 @@ body {
 
 .C {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 244px;
-    z-index: 10;
-    position: relative;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
 }
 
 .C:hover {
-  	transform: rotate(5deg);
-    background-image: url(dress-a-03.png);
-    background-size: 300px;
-    width: 242px;
-    height: 254px;
-    transition: 400ms ease all;
+  	transform: rotate(30deg);
 }
 
 
 #C {
-		width: 150px;
-    height: 150px;
+		width: 200px;
+    height: 200px;
     clip-path: polygon(50% 0, 25% 5%, 10% 25%, 0 50%, 10% 75%, 25% 95%, 50% 100%);
-    background: #FF51F8;
+    background: #FAFF00;
     position: absolute;
     left: 100px;
     top: 80px;
@@ -91,27 +83,22 @@ body {
 
 .D {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 244px;
-    z-index: 10;
-    position: relative;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .D:hover {
-  	transform: rotate(5deg);
-    background-image: url(dress-a-04.png);
-    background-size: 300px;
-    width: 242px;
-    height: 254px;
-    transition: 400ms ease all;
+  	transform: rotate(-30deg);
 }
 
 #D {
-		width: 150px;
-    height: 150px;
+		width: 200px;
+    height: 200px;
     clip-path: polygon(0% 1%, 0% 100%, 25% 95%, 40% 75%, 50% 50%, 40% 25%, 25% 5%);
-    background: #FF51F8;
+    background: #FAFF00;
     position: absolute;
 		left: 100px;
     top: 80px;
@@ -119,56 +106,45 @@ body {
 
 .E {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 244px;
-    z-index: 10;
-    position: relative;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .E:hover {
-  	transform: rotate(5deg);
-    background-image: url(dress-a-05.png);
-    background-size: 300px;
-    width: 242px;
-    height: 254px;
-    transition: 400ms ease all;
+  	transform: rotate(30deg);
 }
 
 #E {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 50% 80%, 25% 65%, 50% 50%, 25% 35%, 50% 20%, 25% 0);
-		background: yellow;
+		background: #FAFF00;
 		position: absolute;
     left: 100px;
     top: 80px;
-    z-index: 10;
 }
 
 .F {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 244px;
-    z-index: 10;
-    position: relative;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .F:hover {
-  	transform: rotate(5deg);
-    background-image: url(dress-a-06.png);
-    background-size: 300px;
-    width: 242px;
-    height: 254px;
-    transition: 400ms ease all;
+  	transform: rotate(-30deg);
 }
 
 #F {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		clip-path: polygon(0% 0%, 0% 100%, 50% 50%, 25% 30%, 75% 0);
-		background: orange;
+		background: #FAFF00;
 		position: absolute;
     left: 80px;
     top: 80px;
@@ -176,27 +152,22 @@ body {
 
 .G {
 		padding: 20px;
-    transition: 400ms ease all;
-    position: relative;
-    width: 300px;
-    height: 244px;
-    z-index: 10;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .G:hover {
-  	transform: rotate(5deg);
-    background-image: url(dress-a-07.png);
-    background-size: 300px;
-    width: 242px;
-    height: 254px;
-    transition: 400ms ease all;
+  	transform: rotate(30deg);
 }
 
 #G {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%, 50% 50%, 25% 50%);
-		background: green;
+		background: #FAFF00;
 		position: absolute;
 		left: 100px;
 		top: 75px;
@@ -204,27 +175,23 @@ body {
 
 .H {
 		padding: 20px;
-    transition: 400ms ease all;
-    position: relative;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
-    transition: 400ms ease all;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 
 }
 
 .H:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-08.png');
-    background-size: 300px;
+    transform: rotate(-30deg);
 }
 
 #H {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		clip-path: polygon(0 0, 25% 39%, 25% 40%, 50% 0, 50% 100%, 25% 60%, 0 100%);
-		background: pink;
+		background: #FAFF00;
 		position: absolute;
 		left: 112px;
     top: 74px;
@@ -232,28 +199,23 @@ body {
 
 .I {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .I:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-09.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #I {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		clip-path: polygon(50% 0, 25% 50%, 50% 100%, 75% 50%);
-		background: pink;
+		background: #FAFF00;
 		position: absolute;
 		left: 80px;
 		top: 80px;
@@ -261,493 +223,406 @@ body {
 
 .J {
 		padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .J:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-10.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 
 #J {
-		width: 150px;
-		height: 150px;
+		width: 200px;
+		height: 200px;
 		clip-path: polygon(75% 0, 75% 100%, 50% 100%, 25% 80%, 25% 50%, 50% 70%);
-		background: yellow;
+		background: #FAFF00;
 		position: absolute;
 		left: 80px;
 		top: 80px;
 }
 
 .K {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .K:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-11.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #K {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0 0, 0 100%, 30% 75%, 75% 100%, 50% 50%, 75% 0, 30% 25%);
-	background: orange;
-	position: absolute;
-	left: 110px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0 0, 0 100%, 30% 75%, 75% 100%, 50% 50%, 75% 0, 30% 25%);
+		background: #FAFF00;
+		position: absolute;
+		left: 110px;
+		top: 80px;
 }
 
 .L {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .L:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-12.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 #L {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(25% 0, 0 25%, 0 100%, 75% 100%, 25% 75%);
-	background: green;
-	position: absolute;
-	left: 120px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(25% 0, 0 25%, 0 100%, 75% 100%, 25% 75%);
+		background: #FAFF00;
+		position: absolute;
+		left: 120px;
+		top: 80px;
 
 }
 
 .M {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .M:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-13.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #M {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(38% 50%, 0 0, 0 100%, 75% 100%, 75% 0);
-	background: green;
-	position: absolute;
-	left: 100px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(38% 50%, 0 0, 0 100%, 75% 100%, 75% 0);
+		background: #FAFF00;
+		position: absolute;
+		left: 100px;
+		top: 80px;
 }
 
 .N {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .N:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-14.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 
 #N {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0 0, 50% 25%, 75% 0, 75% 100%, 25% 75%, 0 100%);
-	background: pink;
-	position: absolute;
-	left: 90px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0 0, 50% 25%, 75% 0, 75% 100%, 25% 75%, 0 100%);
+		background: #FAFF00;
+		position: absolute;
+		left: 90px;
+		top: 80px;
 }
 
 .O {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .O:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-15.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #O {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(36% 0, 75% 33%, 75% 66%, 36% 100%, 0 66%, 0 33%);
-	background: yellow;
-	position: absolute;
-	left: 90px;
-	top: 70px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(36% 0, 75% 33%, 75% 66%, 36% 100%, 0 66%, 0 33%);
+		background: #FAFF00;
+		position: absolute;
+		left: 90px;
+		top: 70px;
 }
 
 .P {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .P:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-16.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 
 #P {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(35% 0, 75% 35%, 35% 50%, 0 100%, 0 0);
-	background: orange;
-	position: absolute;
-	left: 110px;
-	top: 70px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(35% 0, 75% 35%, 35% 50%, 0 100%, 0 0);
+		background: #FAFF00;
+		position: absolute;
+		left: 110px;
+		top: 70px;
 }
 
 .Q {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    left: 30px;
-    top: 30px;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .Q:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-17.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 #Q {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(36% 0, 0 33%, 0 66%, 36% 100%, 75% 100%, 57% 84%, 75% 66%, 75% 33%);
-	background: orange;
-	position: absolute;
-	left: 80px;
-	top: 70px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(36% 0, 0 33%, 0 66%, 36% 100%, 75% 100%, 57% 84%, 75% 66%, 75% 33%);
+		background: #FAFF00;
+		position: absolute;
+		left: 80px;
+		top: 70px;
 }
 
 .R {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .R:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-18.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 
 #R {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(35% 0, 0 0, 0 100%, 75% 100%, 35% 50%, 76% 35%);
-	background: green;
-	position: absolute;
-	left: 80px;
-	top: 70px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(35% 0, 0 0, 0 100%, 75% 100%, 35% 50%, 76% 35%);
+		background: #FAFF00;
+		position: absolute;
+		left: 80px;
+		top: 70px;
 }
 
 .S {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .S:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-19.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #S {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(75% 0, 25% 0, 0 33%, 25% 66%, 0 100%, 50% 100%, 75% 66%, 50% 33%);
-	background: pink;
-	position: absolute;
-	left: 80px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(75% 0, 25% 0, 0 33%, 25% 66%, 0 100%, 50% 100%, 75% 66%, 50% 33%);
+		background: #FAFF00;
+		position: absolute;
+		left: 80px;
+		top: 80px;
 }
 
 .T {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .T:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-20.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 
 #T {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0% 0%, 75% 0, 75% 20%, 50% 40%, 38% 100%, 25% 40%, 0 20%);
-	background: yellow;
-	position: absolute;
-	left: 80px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0% 0%, 75% 0, 75% 20%, 50% 40%, 38% 100%, 25% 40%, 0 20%);
+		background: #FAFF00;
+		position: absolute;
+		left: 80px;
+		top: 80px;
 }
 
 .U {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .U:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-21.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #U {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0% 0%, 75% 0, 75% 75%, 50% 100%, 25% 100%, 0 75%);
-	background: yellow;
-	position: absolute;
-	left: 80px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0% 0%, 75% 0, 75% 75%, 50% 100%, 25% 100%, 0 75%);
+		background: #FAFF00;
+		position: absolute;
+		left: 80px;
+		top: 80px;
 }
 
 .V {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .V:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-22.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 
 #V {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(37% 100%, 0 0, 75% 0);
-	background: orange;
-	position: absolute;
-	left: 90px;
-	top: 70px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(37% 100%, 0 0, 75% 0);
+		background: #FAFF00;
+		position: absolute;
+		left: 90px;
+		top: 70px;
 }
 
 .W {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .W:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-23.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #W {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0 0, 25% 100%, 38% 50%, 50% 100%, 75% 0);
-	background: green;
-	position: absolute;
-	left: 90px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0 0, 25% 100%, 38% 50%, 50% 100%, 75% 0);
+		background: #FAFF00;
+		position: absolute;
+		left: 90px;
+		top: 80px;
 }
 
 .X {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
-    top: 10px;
-    left: 30px;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .X:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-24.png');
-    background-size: 300px;
-   	transition: 400ms ease all;
+    transform: rotate(-30deg);
 
 }
 
 #X {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0 0, 25% 50%, 0 100%, 37% 75%, 75% 100%, 50% 50%, 75% 0, 37% 26%);
-	background: pink;
-	position: absolute;
-	left: 100px;
-	top: 100px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0 0, 25% 50%, 0 100%, 37% 75%, 75% 100%, 50% 50%, 75% 0, 37% 26%);
+		background: #FAFF00;
+		position: absolute;
+		left: 100px;
+		top: 100px;
 }
 
 .Y {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 100;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .Y:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-25.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(30deg);
 }
 
 
 #Y {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(30% 45%, 0 0, 75% 0, 45% 45%, 38% 100%);
-	background: yellow;
-	position: absolute;
-	left: 100px;
-	top: 100px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(30% 45%, 0 0, 75% 0, 45% 45%, 38% 100%);
+		background: #FAFF00;
+		position: absolute;
+		left: 100px;
+		top: 100px;
 }
 
 .Z {
-	padding: 20px;
-    transition: 400ms ease all;
-    width: 300px;
-    height: 300px;
-    z-index: 10;
-    position: relative;
+		padding: 20px;
+		transition: 500ms ease all;
+		width: 300px;
+		height: 300px;
+		position: relative;
+
 }
 
 .Z:hover {
-    transform: rotate(5deg);
-    background-image: url('dress-a-26.png');
-    background-size: 300px;
-    width: 250px;
-    height: 254px;
-    transition: 400ms ease all;
+    transform: rotate(-30deg);
 }
 
 #Z {
-	width: 150px;
-	height: 150px;
-	clip-path: polygon(0 0, 50% 0, 75% 0, 45% 65%, 75% 100%, 25% 100%, 0 100%, 30% 35%);
-	background: orange;
-	position: absolute;
-	left: 80px;
-	top: 80px;
+		width: 200px;
+		height: 200px;
+		clip-path: polygon(0 0, 50% 0, 75% 0, 45% 65%, 75% 100%, 25% 100%, 0 100%, 30% 35%);
+		background: #FAFF00;
+		position: absolute;
+		left: 80px;
+		top: 80px;
 }
