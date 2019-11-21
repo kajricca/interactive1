@@ -1,6 +1,7 @@
 body {
   	background: #4700BC;
-		color:#FAFF00;
+    padding: 30px
+
 
 }
 
@@ -10,593 +11,62 @@ body {
 		margin: auto;
 }
 
-.A {
-		padding: 20px;
-    transition: 500ms ease all;
-    width: 300px;
-    height: 300px;
-    position: relative;
-}
 
-.A:hover {
-    transform: rotate(30deg);
-}
+.letter {
+	position: relative;
+	margin: 60px;
 
-#A {
-		width: 200px;
-    height: 200px;
-    background: #FAFF00;
-    position: absolute;
-    top: 75px;
-    left: 75px;
+	display: grid;
+	float: left;
 
-}
-
-.B {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.B:hover {
-		transform: rotate(-30deg);
-}
-
-#B {
-		width: 200px;
-    height: 200px;
-    background: #FAFF00;
-    position: absolute;
-    top: 75px;
-    left: 112px;
+	grid-template-columns: 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-gap: 0px 0px;
 }
 
 
+/* letter pieces */
 
-.C {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
+.letter div {
+	border-radius: 20px;
+	background: #FAFF00;
 }
 
-.C:hover {
-  	transform: rotate(30deg);
+.letter div.empty {
+	background: transparent;
 }
 
 
-#C {
-		width: 200px;
-    height: 200px;
-    background: #FAFF00;
-    position: absolute;
-    left: 100px;
-    top: 80px;
-}
-
-.D {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.D:hover {
-  	transform: rotate(-30deg);
-}
-
-#D {
-		width: 200px;
-    height: 200px;
-    background: #FAFF00;
-    position: absolute;
-		left: 100px;
-    top: 80px;
-}
-
-.E {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.E:hover {
-  	transform: rotate(30deg);
-}
-
-#E {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-    left: 100px;
-    top: 80px;
-}
-
-.F {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.F:hover {
-  	transform: rotate(-30deg);
-}
-
-#F {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-    left: 80px;
-    top: 80px;
-}
-
-.G {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.G:hover {
-  	transform: rotate(30deg);
-}
-
-#G {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 100px;
-		top: 75px;
-}
-
-.H {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-
-}
-
-.H:hover {
-    transform: rotate(-30deg);
-}
-
-#H {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 112px;
-    top: 74px;
-}
-
-.I {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.I:hover {
+.letter:hover {
     transform: rotate(30deg);
 }
 
 
-#I {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 80px;
+.letter1 {
+	position: relative;
+	margin: 60px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-gap: 0px 0px;
 }
 
-.J {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
 
+/* letter pieces */
+
+.letter1 div {
+	border-radius: 20px;
+	background: #FAFF00;
 }
 
-.J:hover {
+.letter1 div.empty {
+	background: transparent;
+}
+
+
+.letter1:hover {
     transform: rotate(-30deg);
-}
-
-
-#J {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 80px;
-}
-
-.K {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.K:hover {
-    transform: rotate(30deg);
-}
-
-
-#K {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 110px;
-		top: 80px;
-}
-
-.L {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.L:hover {
-    transform: rotate(-30deg);
-}
-
-#L {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 120px;
-		top: 80px;
-
-}
-
-.M {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.M:hover {
-    transform: rotate(30deg);
-}
-
-
-#M {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 100px;
-		top: 80px;
-}
-
-.N {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.N:hover {
-    transform: rotate(-30deg);
-}
-
-
-#N {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 90px;
-		top: 80px;
-}
-
-.O {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.O:hover {
-    transform: rotate(30deg);
-}
-
-
-#O {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 90px;
-		top: 70px;
-}
-
-.P {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.P:hover {
-    transform: rotate(-30deg);
-}
-
-
-#P {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 110px;
-		top: 70px;
-}
-
-.Q {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.Q:hover {
-    transform: rotate(30deg);
-}
-
-#Q {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 70px;
-}
-
-.R {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.R:hover {
-    transform: rotate(-30deg);
-}
-
-
-#R {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 70px;
-}
-
-.S {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.S:hover {
-    transform: rotate(30deg);
-}
-
-
-#S {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 80px;
-}
-
-.T {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.T:hover {
-    transform: rotate(-30deg);
-}
-
-
-#T {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 80px;
-}
-
-.U {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.U:hover {
-    transform: rotate(30deg);
-}
-
-
-#U {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 80px;
-}
-
-.V {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.V:hover {
-    transform: rotate(-30deg);
-}
-
-
-#V {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 90px;
-		top: 70px;
-}
-
-.W {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.W:hover {
-    transform: rotate(30deg);
-}
-
-
-#W {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 90px;
-		top: 80px;
-}
-
-.X {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.X:hover {
-    transform: rotate(-30deg);
-
-}
-
-#X {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 100px;
-		top: 100px;
-}
-
-.Y {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.Y:hover {
-    transform: rotate(30deg);
-}
-
-
-#Y {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 100px;
-		top: 100px;
-}
-
-.Z {
-		padding: 20px;
-		transition: 500ms ease all;
-		width: 300px;
-		height: 300px;
-		position: relative;
-
-}
-
-.Z:hover {
-    transform: rotate(-30deg);
-}
-
-#Z {
-		width: 200px;
-		height: 200px;
-		background: #FAFF00;
-		position: absolute;
-		left: 80px;
-		top: 80px;
 }
