@@ -1,10 +1,9 @@
 body {
-  	background: #4700BC;
+  	background: #380094;
     padding: 60px;
 
-
-
 }
+
 
 .container{
 		display: flex;
@@ -30,16 +29,20 @@ body {
 
 .letter div {
 	border-radius: 20px;
-	background: #FAFF00;
+	background: #FF912C;
+  box-shadow:3px 3px 30px #FF7A00, 3px 3px 30px #FF7A00;
+
 }
 
 .letter div.empty {
 	background: transparent;
+  box-shadow: none;
 }
 
 
 .letter:hover {
     transform: rotate(30deg);
+
 }
 
 
@@ -60,11 +63,13 @@ body {
 
 .letter1 div {
 	border-radius: 20px;
-	background: #FAFF00;
+	background: #FF44D6;
+  box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
 }
 
 .letter1 div.empty {
 	background: transparent;
+  box-shadow: none;
 }
 
 
