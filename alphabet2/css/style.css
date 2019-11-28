@@ -1,6 +1,12 @@
 body {
-  	background: #380094;
+  	background: white;
     padding: 60px;
+
+
+    background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right,  lightblue 1px, transparent 1px),
+    linear-gradient(to bottom, lightblue 1px, transparent 1px);
 
 }
 
@@ -10,6 +16,36 @@ body {
 		flex-wrap: wrap;
 		margin: auto;
 }
+
+
+
+
+.dots {
+  position: relative;
+  padding:60px;
+
+	display: grid;
+	float: left;
+
+  grid-template-columns: 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px;
+	grid-template-rows: 13px 13px 13px 13px 13px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.dots div {
+  border-radius: 20px;
+	background: black;
+}
+
+.dots div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
 
 
 .letter {
@@ -29,9 +65,7 @@ body {
 
 .letter div {
 	border-radius: 20px;
-	background: #FF912C;
-  box-shadow:3px 3px 30px #FF7A00, 3px 3px 30px #FF7A00;
-
+	background: #0FA9FF;
 }
 
 .letter div.empty {
@@ -46,33 +80,68 @@ body {
 }
 
 
-.letter1 {
+
+
+.number {
 	position: relative;
-	margin: 60px;
+	margin: 80px;
 
 	display: grid;
 	float: left;
 
-  grid-template-columns: 40px 40px 40px 40px 40px;
-	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-template-columns: 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px;
 	grid-gap: 0px 0px;
 }
 
 
 /* letter pieces */
 
-.letter1 div {
+.number div {
 	border-radius: 20px;
-	background: #FF44D6;
-  box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
+	background: #FF7A00;
 }
 
-.letter1 div.empty {
+.number div.empty {
 	background: transparent;
   box-shadow: none;
 }
 
 
-.letter1:hover {
+.number:hover {
     transform: rotate(-30deg);
+
+}
+
+
+
+
+.punctuation {
+  position: relative;
+	margin: 80px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.punctuation div {
+  border-radius: 20px;
+	background: #FF44D6;
+}
+
+.punctuation div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+.punctuation:hover {
+    transform: rotate(30deg);
 }

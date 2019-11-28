@@ -16,15 +16,13 @@ body {
 
 .glow {
   position: relative;
-	padding-top:60px;
-  padding-bottom:60px;
-  padding-left:60px;
+	padding: 60px;
 
 	display: grid;
 	float: left;
 
-	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-	grid-template-rows: 10px 10px 10px 10px 10px;
+	grid-template-columns: 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px;
+	grid-template-rows: 13px 13px 13px 13px 13px;
 	grid-gap: 0px 0px;
 }
 
@@ -46,15 +44,13 @@ body {
 
 .dots {
   position: relative;
-  padding-top:60px;
-  padding-left:60px;
-  padding-bottom:60px;
+  padding:60px;
 
 	display: grid;
 	float: left;
 
-  grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-	grid-template-rows: 10px 10px 10px 10px 10px;
+  grid-template-columns: 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px;
+	grid-template-rows: 13px 13px 13px 13px 13px;
 	grid-gap: 0px 0px;
 }
 
