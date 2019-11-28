@@ -1,0 +1,78 @@
+body {
+  	background: #380094;
+    padding: 60px;
+
+}
+
+
+.container{
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+}
+
+
+.letter {
+	position: relative;
+	margin: 60px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.letter div {
+	border-radius: 20px;
+	background: #FF912C;
+  box-shadow:3px 3px 30px #FF7A00, 3px 3px 30px #FF7A00;
+
+}
+
+.letter div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+.letter:hover {
+    transform: rotate(30deg);
+
+}
+
+
+.letter1 {
+	position: relative;
+	margin: 60px;
+
+	display: grid;
+	float: left;
+
+  grid-template-columns: 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.letter1 div {
+	border-radius: 20px;
+	background: #FF44D6;
+  box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
+}
+
+.letter1 div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+.letter1:hover {
+    transform: rotate(-30deg);
+}

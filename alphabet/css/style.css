@@ -12,6 +12,69 @@ body {
 }
 
 
+
+
+.glow {
+  position: relative;
+	padding-top:60px;
+  padding-bottom:60px;
+  padding-left:60px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.glow div {
+  border-radius: 20px;
+	background: white;
+  box-shadow:3px 3px 30px white, 3px 3px 30px white;
+}
+
+.glow div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+
+.dots {
+  position: relative;
+  padding-top:60px;
+  padding-left:60px;
+  padding-bottom:60px;
+
+	display: grid;
+	float: left;
+
+  grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+	grid-template-rows: 10px 10px 10px 10px 10px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.dots div {
+  border-radius: 20px;
+	background: white;
+  box-shadow:3px 3px 30px white, 3px 3px 30px white;
+}
+
+.dots div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+
+
 .letter {
 	position: relative;
 	margin: 60px;
@@ -46,33 +109,71 @@ body {
 }
 
 
-.letter1 {
+
+
+.number {
 	position: relative;
-	margin: 60px;
+	margin: 80px;
 
 	display: grid;
 	float: left;
 
-  grid-template-columns: 40px 40px 40px 40px 40px;
-	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-template-columns: 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px;
 	grid-gap: 0px 0px;
 }
 
 
 /* letter pieces */
 
-.letter1 div {
+.number div {
 	border-radius: 20px;
-	background: #FF44D6;
-  box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
+	background: #FAFF00;
+  box-shadow:3px 3px 30px #FAFE47, 3px 3px 30px #FAFE47;
+
 }
 
-.letter1 div.empty {
+.number div.empty {
 	background: transparent;
   box-shadow: none;
 }
 
 
-.letter1:hover {
+.number:hover {
     transform: rotate(-30deg);
+
+}
+
+
+
+
+.punctuation {
+  position: relative;
+	margin: 80px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.punctuation div {
+  border-radius: 20px;
+	background: #FF44D6;
+  box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
+}
+
+.punctuation div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+.punctuation:hover {
+    transform: rotate(30deg);
 }
