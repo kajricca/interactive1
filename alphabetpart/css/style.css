@@ -1,12 +1,6 @@
 body {
-  	background: white;
-    padding: 40px;
-
-
-    background-size: 40px 40px;
-    background-image:
-    linear-gradient(to right,  lightblue 1px, transparent 1px),
-    linear-gradient(to bottom, lightblue 1px, transparent 1px);
+  	background: #380094;
+    padding: 60px;
 
 }
 
@@ -20,9 +14,37 @@ body {
 
 
 
+.glow {
+  position: relative;
+	padding: 60px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px 13px;
+	grid-template-rows: 13px 13px 13px 13px 13px;
+	grid-gap: 0px 0px;
+}
+
+
+/* letter pieces */
+
+.glow div {
+  border-radius: 20px;
+	background: white;
+  box-shadow:3px 3px 30px white, 3px 3px 30px white;
+}
+
+.glow div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+
 .dots {
   position: relative;
-  padding:40px;
+  padding:60px;
 
 	display: grid;
 	float: left;
@@ -37,7 +59,8 @@ body {
 
 .dots div {
   border-radius: 20px;
-	background: black;
+	background: white;
+  box-shadow:3px 3px 30px white, 3px 3px 30px white;
 }
 
 .dots div.empty {
@@ -50,7 +73,7 @@ body {
 
 .letter {
 	position: relative;
-	margin: 40px;
+	margin: 60px;
 
 	display: grid;
 	float: left;
@@ -65,7 +88,9 @@ body {
 
 .letter div {
 	border-radius: 20px;
-	background: #0FA9FF;
+	background: #FF912C;
+  box-shadow:3px 3px 30px #FF7A00, 3px 3px 30px #FF7A00;
+
 }
 
 .letter div.empty {
@@ -84,7 +109,7 @@ body {
 
 .number {
 	position: relative;
-	margin: 40px;
+	margin: 80px;
 
 	display: grid;
 	float: left;
@@ -99,7 +124,9 @@ body {
 
 .number div {
 	border-radius: 20px;
-	background: #FF7A00;
+	background: #FAFF00;
+  box-shadow:3px 3px 30px #FAFE47, 3px 3px 30px #FAFE47;
+
 }
 
 .number div.empty {
@@ -118,7 +145,7 @@ body {
 
 .punctuation {
   position: relative;
-	margin: 40px;
+	margin: 80px;
 
 	display: grid;
 	float: left;
@@ -134,6 +161,7 @@ body {
 .punctuation div {
   border-radius: 20px;
 	background: #FF44D6;
+  box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
 }
 
 .punctuation div.empty {
