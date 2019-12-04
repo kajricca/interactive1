@@ -88,8 +88,8 @@ body {
 
 .letter div {
 	border-radius: 20px;
-	background: #FF912C;
-  box-shadow:3px 3px 30px #FF7A00, 3px 3px 30px #FF7A00;
+	background: #FF6600;
+  box-shadow:3px 3px 30px #FF6600, 3px 3px 30px #FF6600;
 
 }
 
@@ -98,11 +98,6 @@ body {
   box-shadow: none;
 }
 
-
-.letter:hover {
-    transform: rotate(30deg);
-
-}
 
 
 
@@ -135,11 +130,6 @@ body {
 }
 
 
-.number:hover {
-    transform: rotate(-30deg);
-
-}
-
 
 
 
@@ -150,8 +140,8 @@ body {
 	display: grid;
 	float: left;
 
-	grid-template-columns: 20px 20px 20px 20px 20px;
-	grid-template-rows: 20px 20px 20px 20px 20px;
+	grid-template-columns: 15px 15px 15px 15px 15px;
+	grid-template-rows: 15px 15px 15px 15px 15px;
 	grid-gap: 0px 0px;
 }
 
@@ -160,7 +150,7 @@ body {
 
 .punctuation div {
   border-radius: 20px;
-	background: #FF44D6;
+	background: #FF00C7;
   box-shadow:3px 3px 30px #FF00C7, 3px 3px 30px #FF00C7;
 }
 
@@ -170,6 +160,12 @@ body {
 }
 
 
-.punctuation:hover {
-    transform: rotate(30deg);
+
+
+@keyframes blink {
+	0% {opacity: 0}
+	49%{opacity: 0}
+	50% {opacity: 1}
 }
+
+blink{animation: blink 1s infinite;}
