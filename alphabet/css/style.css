@@ -162,10 +162,34 @@ body {
 
 
 
-@keyframes blink {
-	0% {opacity: 0}
-	49%{opacity: 0}
-	50% {opacity: 1}
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation .75s infinite;
+   -moz-animation: flickerAnimation .75s infinite;
+   -o-animation: flickerAnimation .75s infinite;
+    animation: flickerAnimation .75s infinite;
 }
 
-blink{animation: blink 1s infinite;}
+.animate-flicker:hover {
+
+  animation: ease;
+}
