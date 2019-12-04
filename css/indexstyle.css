@@ -3,36 +3,28 @@ body {
 	padding-left:8em;
 	padding-right:8em;
 	padding-bottom:8em;
-	font-family:futura,avenir,helveticaneue,centurygothic,arial,sansserif;
-	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+	background-color: #ffe1f0;
 	color:black;
 }
 
 h1 {
 	color: black;
-	text-align:center;
-	font-size:8em;
-	background: lavenderblush;
+	font-size:10em;
+	font-family: 'Sacramento', cursive;
 }
 
 h2{
 	font-size: 2.5em;
-	color:black;
+	color:white;
+	font-weight: bolder;
 	text-align:left;
 }
 
-p{
-	font-size: 1.5em;
-}
 
 a {
 	color:black;
-	background:lavenderblush;
 	text-decoration: none;
 	font-size: 1.5em;
 
-}
-
-a1{
-	font-weight: bold;
 }
