@@ -95,6 +95,7 @@ body {
 .number {
 	position: relative;
 	margin: 60px;
+  animation-delay:2s;
 
 	display: grid;
 	float: left;
@@ -105,20 +106,21 @@ body {
 }
 
 
+
 /* letter pieces */
 
 .number div {
 	border-radius: 20px;
 	background:#DDFF00;
   box-shadow:
-       inset 0 0 50px white,      /* inner white */
-       inset 20px 0 80px #DDFF00,   /* inner left */
-       inset -20px 0 80px #B7FF00,  /* inner right */
-       inset 20px 0 300px #DDFF00,  /* inner left */
-       inset -20px 0 300px #B7FF00, /* inner right */
-       0 0 50px #B7FF00,            /* outer */
-       -10px 0 80px #DDFF00,        /* outer left */
-       10px 0 80px #DDFF00;         /* outer right */
+       inset 0 0 40px white,      /* inner white */
+       inset 10px 0 70px #DDFF00,   /* inner left */
+       inset -10px 0 70px #B7FF00,  /* inner right */
+       inset 10px 0 290px #DDFF00,  /* inner left */
+       inset -10px 0 290px #B7FF00, /* inner right */
+       0 0 40px #B7FF00,            /* outer */
+       -10px 0 70px #DDFF00,        /* outer left */
+       10px 0 70px #DDFF00;         /* outer right */
 
 }
 
@@ -155,14 +157,14 @@ body {
   border-radius: 20px;
   background: #00F7FF;
   box-shadow:
-       inset 0 0 50px white,      /* inner white */
-       inset 20px 0 80px #00F7FF,   /* inner left */
-       inset -20px 0 80px #00FFE1,  /* inner right */
-       inset 20px 0 300px #00F7FF,  /* inner left */
-       inset -20px 0 300px #00FFE1, /* inner right */
-       0 0 50px #00FFE1,            /* outer */
-       -10px 0 80px #00F7FF,        /* outer left */
-       10px 0 80px #00F7FF;         /* outer right */
+       inset 0 0 40px white,      /* inner white */
+       inset 10px 0 70px #00F7FF,   /* inner left */
+       inset -10px 0 70px #00FFE1,  /* inner right */
+       inset 10px 0 290px #00F7FF,  /* inner left */
+       inset -10px 0 290px #00FFE1, /* inner right */
+       0 0 40px #00FFE1,            /* outer */
+       -10px 0 70px #00F7FF,        /* outer left */
+       10px 0 70px #00F7FF;         /* outer right */
 }
 
 .punctuation div.empty {
@@ -197,14 +199,14 @@ body {
 	border-radius: 20px;
   background: #FF6600;
   box-shadow:
-       inset 0 0 50px white,      /* inner white */
-       inset 20px 0 80px #FF6600,   /* inner left */
-       inset -20px 0 80px #FFA500,  /* inner right */
-       inset 20px 0 300px #FF6600,  /* inner left */
-       inset -20px 0 300px #FFA500, /* inner right */
-       0 0 50px #FFA500,            /* outer */
-       -10px 0 80px #FF6600,        /* outer left */
-       10px 0 80px #FF6600;         /* outer right */
+       inset 0 0 20px white,      /* inner white */
+       inset 10px 0 50px #FF6600,   /* inner left */
+       inset -10px 0 50px #FFA500,  /* inner right */
+       inset 10px 0 270px #FF6600,  /* inner left */
+       inset -10px 0 270px #FFA500, /* inner right */
+       0 0 20px #FFA500,            /* outer */
+       -10px 0 50px #FF6600,        /* outer left */
+       10px 0 50px #FF6600;         /* outer right */
 
 }
 
@@ -220,38 +222,242 @@ body {
 
 
 
-@keyframes flickerAnimation {
-  50%  { opacity:.5; }
-  75%  { opacity:1; }
-  100% { opacity:.75; }
-}
-@-o-keyframes flickerAnimation{
-  50%  { opacity:.5; }
-  75%  { opacity:1; }
-  100% { opacity:.75; }
-}
-@-moz-keyframes flickerAnimation{
-  50%  { opacity:.5; }
-  75%  { opacity:1; }
-  100% { opacity:.75; }
-}
-@-webkit-keyframes flickerAnimation{
-  50%  { opacity:.5; }
-  75%  { opacity:1; }
-  100% { opacity:.75; }
-}
-.animate-flicker {
-   -webkit-animation: flickerAnimation 1.5s infinite;
-   -moz-animation: flickerAnimation 1s infinite;
-   -o-animation: flickerAnimation 2s infinite;
-    animation: flickerAnimation 1.5s infinite;
+/* letter pieces */
+
+.text2 {
+  position: relative;
+	padding: 20px;
+
+	display: grid;
+	float: left;
+
+  grid-template-columns: 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px 20px 20px;
+	grid-gap: 0px 0px;
 }
 
-.animate-flicker:hover {
+.text2 div {
+	border-radius: 20px;
+  background: #FF6600;
+  box-shadow:
+       inset 0 0 30px white,      /* inner white */
+       inset 20px 0 60px #FF6600,   /* inner left */
+       inset -20px 0 60px #FFA500,  /* inner right */
+       inset 20px 0 280px #FF6600,  /* inner left */
+       inset -20px 0 280px #FFA500, /* inner right */
+       0 0 30px #FFA500,            /* outer */
+       -20px 0 60px #FF6600,        /* outer left */
+       20px 0 60px #FF6600;         /* outer right */
+
+}
+
+.text2 div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+.text2 div:hover {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+
+
+/* letter pieces */
+
+.text3 {
+  position: relative;
+	padding: 20px;
+
+	display: grid;
+	float: left;
+
+  grid-template-columns: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+	grid-template-rows: 40px 40px 40px 40px 40px;
+	grid-gap: 0px 0px;
+}
+
+.text3 div {
+	border-radius: 20px;
+  background: #FF6600;
+  box-shadow:
+       inset 0 0 50px white,      /* inner white */
+       inset 20px 0 80px #FF6600,   /* inner left */
+       inset -20px 0 80px #FFA500,  /* inner right */
+       inset 20px 0 300px #FF6600,  /* inner left */
+       inset -20px 0 300px #FFA500, /* inner right */
+       0 0 20px #FFA500,            /* outer */
+       -10px 0 80px #FF6600,        /* outer left */
+       10px 0 80px #FF6600;         /* outer right */
+
+}
+
+.text3 div.empty {
+	background: transparent;
+  box-shadow: none;
+}
+
+.text3 div:hover {
+	background: transparent;
+  box-shadow: none;
+}
+
+
+
+@keyframes flickerAnimation1 {
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-o-keyframes flickerAnimation1{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-moz-keyframes flickerAnimation1{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-webkit-keyframes flickerAnimation1{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+.animate-flicker-alphabet {
+   -webkit-animation: flickerAnimation1 1.5s infinite;
+   -moz-animation: flickerAnimation1 1s infinite;
+   -o-animation: flickerAnimation1 2s infinite;
+    animation: flickerAnimation1 1.5s infinite;
+    animation-delay: 2s;
+}
+
+.animate-flicker-alphabet:hover {
 
   animation: ease;
   opacity: none;
 }
+
+
+@keyframes flickerAnimation2 {
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-o-keyframes flickerAnimation2{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-moz-keyframes flickerAnimation2{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-webkit-keyframes flickerAnimation2{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+
+
+.animate-flicker-number {
+   -webkit-animation: flickerAnimation2 1.5s infinite;
+   -moz-animation: flickerAnimation2 1s infinite;
+   -o-animation: flickerAnimation2 2s infinite;
+    animation: flickerAnimation2 1.5s infinite;
+    animation-delay: 4s;
+}
+
+.animate-flicker-number:hover {
+
+  animation: ease;
+  opacity: none;
+}
+
+
+
+
+@keyframes flickerAnimation3 {
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-o-keyframes flickerAnimation3{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-moz-keyframes flickerAnimation3{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-webkit-keyframes flickerAnimation3{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+
+
+.animate-flicker-punctuation {
+   -webkit-animation: flickerAnimation3 1.5s infinite;
+   -moz-animation: flickerAnimation3 1s infinite;
+   -o-animation: flickerAnimation3 2s infinite;
+    animation: flickerAnimation3 1.5s infinite;
+    animation-delay: 6s;
+}
+
+.animate-flicker-punctuation:hover {
+
+  animation: ease;
+  opacity: none;
+}
+
+
+
+
+
+@keyframes flickerAnimation4 {
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-o-keyframes flickerAnimation4{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-moz-keyframes flickerAnimation4{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+@-webkit-keyframes flickerAnimation4{
+  50%  { opacity:.5; }
+  75%  { opacity:1; }
+  100% { opacity:.75; }
+}
+
+
+.animate-flicker-text {
+   -webkit-animation: flickerAnimation4 1.5s infinite;
+   -moz-animation: flickerAnimation4 1s infinite;
+   -o-animation: flickerAnimation4 2s infinite;
+    animation: flickerAnimation4 1.5s infinite;
+    animation-delay: 8s;
+}
+
+.animate-flicker-text:hover {
+
+  animation: ease;
+  opacity: none;
+}
+
+
+
+
 
 @keyframes flicker {
   0% {
